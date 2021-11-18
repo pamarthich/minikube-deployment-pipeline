@@ -1,3 +1,3 @@
 #!/bin/bash
 
-ssh 157.245.107.84 'bash -s' < deploy.sh
+sshpass -p automation ssh  automation@57.245.107.84 'bash -s' < deploy.sh
